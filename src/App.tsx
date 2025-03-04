@@ -1,10 +1,12 @@
 import "./App.scss";
+import ParentDemo from "./components/ParentDemo/ParentDemo";
 
 function App() {
 	return (
 		<>
 			<h1>rocket</h1>
 			<p>a demo of useEffect</p>
+			<ParentDemo />
 			{/*<DisplayData />
 			 <LukeCard />
 			<SWPeopleCard id={2} />

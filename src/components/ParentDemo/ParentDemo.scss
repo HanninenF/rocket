@@ -1,0 +1,15 @@
+.ParentDemo {
+	background-color: lightskyblue;
+	padding: 1rem;
+	margin: 1rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: auto;
+	grid-template-areas: "header header header";
+
+	& > h1 {
+		margin: 1rem;
+		color: darkblue;
+		grid-area: header;
+	}
+}
