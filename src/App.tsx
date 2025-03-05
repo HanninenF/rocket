@@ -1,13 +1,14 @@
 import "./App.scss";
-import DOMRef from "./components/DOMRef/DOMRef";
+import MonsterSection from "./components/MonsterSection/MonsterSection";
 
 function App() {
 	return (
 		<>
 			<h1>rocket</h1>
 			<p>a demo of useEffect</p>
-			<DOMRef />
-			{/*<ParentDemo />
+			<MonsterSection />
+			{/*<DOMRef />
+			<ParentDemo />
 			<DisplayData />
 			 <LukeCard />
 			<SWPeopleCard id={2} />
