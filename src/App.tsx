@@ -1,13 +1,14 @@
 import "./App.scss";
-import MonsterSection from "./components/MonsterSection/MonsterSection";
+import UseCallbackDemo from "./components/UseCallbackDemo/UseCallBackDemo";
 
 function App() {
 	return (
 		<>
 			<h1>rocket</h1>
 			<p>a demo of useEffect</p>
-			<MonsterSection />
-			{/*<DOMRef />
+			<UseCallbackDemo />
+			{/*<MonsterSection />
+			<DOMRef />
 			<ParentDemo />
 			<DisplayData />
 			 <LukeCard />
